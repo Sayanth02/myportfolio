@@ -1,0 +1,642 @@
+#home{
+
+    width: 100%;
+    margin-left: 50px;
+
+    
+}
+*{
+    font-family: 'Bitter', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    
+    background-size: cover;
+  
+}
+
+/* nav bar */
+nav ul{
+
+    display: flex;
+    margin-left: 800px;
+    list-style: none;
+    
+   
+}
+nav ul li{
+
+    margin: 40px 30px;
+    
+
+
+}
+/* nav  text */
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:900;
+    font-size: 20px;
+}
+/* nav hover effect */
+nav :hover{
+    color:yellow;
+}
+
+
+/* main heading */
+ .heading {
+
+    color: white;
+    margin-top: 200px;
+    font-size: 50px;
+    margin-left: 120px;
+    font-weight: 900;
+
+    
+
+}
+
+#hi{
+    color:rgb(237, 237, 93);
+}
+
+/* sub heading */
+#heading3{
+
+    color: rgb(237, 237, 93);
+    margin-left: 50px;
+    font-weight: 500px;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+/* cv area */
+.cv a{
+    background-color: rgb(213, 212, 212);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-bottom: 00px;
+   
+   }
+  
+   /* home div style */
+   .home{
+    background-image: url(./IMAGES/black-elegant-background-with-copy-space.jpg);
+    background-size: cover;
+    margin: 0;
+    height: 800px;
+   }
+
+   /* home character */
+
+   .char-div{
+
+    width: 500px;
+    
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    
+    
+   }
+
+   .char-div img{
+
+
+  
+
+    
+    margin-top: 30%;
+    object-fit: cover;
+    
+   }
+
+  /* home acharcter end */
+
+   /* about */
+
+   #about{
+
+    width: 100%;
+    height: 900px;
+    background-image: url(./IMAGES/black-elegant-background-with-copy-space.jpg);
+    background-size: cover;
+   }
+
+   /* about div */
+   .about-con{
+    width: 900px;
+    height: 600px; 
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+    
+    
+}
+
+
+
+   /* about image */
+.about-img img{
+    width: 200px;
+    height: 200px;
+    
+    
+   
+    
+    margin-top: 130px;
+    margin-left: 50px;
+   
+   position: absolute;
+   border: 1px solid rgb(19, 17, 17);
+    box-shadow: 10px 10px 15px 15px;
+    
+
+}
+
+
+
+
+/* about paragraph */
+
+.about-p p{
+
+    width: 600px;
+    font-size: 20px;
+    font-weight: 900;
+    
+    border-radius: 10px;
+    color: rgb(234, 227, 227);
+    font-family: monospace;
+    
+    float: right;
+    margin-top: 100px;
+
+}
+
+/* about heading */
+.about-con h1{
+
+    text-align: center;
+    color: rgb(235, 235, 87);
+    font-size: 40px;
+    margin-top: 10px;
+    
+    
+}
+
+/* about icons and infermation */
+
+  .infermation{
+    margin: 1rem 0 1.4rem;
+   margin-top: 50px;
+   color: white;
+   display: inline-flex;
+   margin-left: 100px;
+   
+  }
+  
+  .infermation .info-box{
+  
+    
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 50px;
+    
+  }
+  .infermation .info-box span{
+  
+    font-weight:500;
+    font-size: 20px;
+    
+  
+  }
+  .infermation i{
+    color: yellow;
+    margin-right: 5px;
+  }
+
+
+  /*       -----------------------------------skill section--------------------                                   */
+
+#skills{
+    width: 100%;
+    height: 800px;
+    background-image: url(./IMAGES/black-elegant-background-with-copy-space.jpg);
+    background-size: cover;
+    
+
+  
+
+}
+
+/* main div */
+
+.skill-con{
+
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(24, 21, 21);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 15px 15px;
+    
+    
+    
+    
+} 
+
+/* div heading */
+.skill-con h1{
+
+    text-align: center;
+    color: rgb(222, 222, 73);
+    font-size: 50px;
+    font-weight: 900px;
+    
+}
+
+
+/* Grid starts here */
+.grid-container{
+
+
+
+    width: 900px;
+    height: 400px;
+    
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 50px;
+
+    
+}
+
+/* grid box */
+
+.grid-container .item{
+
+    width: 150px;
+    height: 150px;
+    
+    margin-top: 20px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 10px 10px;
+
+}
+
+/* logos */
+.item img{
+
+    width: 70%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* names under logo */
+.item p{
+    color: white;
+    position: absolute;
+    align-items: last baseline;
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+/* hover effect */
+.item:hover{
+    width: 155px;
+	height: 155px;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+
+/* ----------------------------------------------------------Contact  Section--------------------------------------------------- */
+
+#contact{
+
+
+
+    width: 100%;
+    height: 400px;
+    background-image: url(./IMAGES/empty-elegant-background-with-copy-space.jpg);
+    background-size: cover;
+    position: absolute;
+}
+
+.con-head {
+   
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive
+    
+    
+}
+
+/* contact icons */
+
+
+.icons-div{
+
+    margin: 40px  20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-div .icons{
+    width: 100px;
+    height: 50px;
+    
+    
+    align-items: center;
+    justify-content: center;
+    
+ 
+
+    
+}
+.icons-div .icons i{
+
+    font-size: 70px;
+}
+
+.fa-whatsapp{
+
+    color: rgb(33, 128, 33);
+}
+.fa-instagram{
+
+    color: #953553;
+}
+.fa-facebook{
+    color:rgb(57, 57, 251);
+}
+.fa-linkedin{
+
+    color: rgb(76, 76, 231);
+}
+.fa-github{
+
+    color: black;
+}
+
+.icons i:hover{
+    transform: scale(1.1);
+  box-shadow: 0 0 15px white;
+}
+.icons-div .icons a{
+    text-decoration: none;
+    
+}
+
+
+.footer p{
+
+    color: black;
+}
+  
+
+
+/* responsive code */
+
+@media(max-width:400px){
+
+
+    .home{
+
+        height: 600px;
+    }
+
+
+    nav ul{
+        margin-left: 5px;
+        margin-top: 5px;
+        
+
+
+    }
+    nav ul li{
+
+        margin: 5px 15px;
+        
+    
+    
+    }
+    nav ul li a{
+        
+        font-size: 15px;
+    }
+
+    .heading{
+
+        font-size:30px ;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    #heading3{
+
+        font-size:15px ;
+         margin: 0 180px;
+         margin-right: 0;
+    }
+
+    .cv a{
+
+        margin-left: 0;
+        padding: 5px 5px;
+        margin-left: 60px; 
+    }
+    .char-div{
+
+        width: 200px;
+        height: 250px;
+       
+       
+        margin-left: 0;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+       }
+    
+       .char-div img{
+        width: 200px;
+        object-fit: cover;
+       }
+
+       /* about */
+       #about{
+        height: 500px;
+       }
+
+       .about-con{
+        width: 80%;
+        height: 400px;
+        margin-top: 60px;
+        margin-left: 35px;
+        border-radius: 0px;
+    
+       }
+       .about-img img{
+        width: 70px;
+        height: 70px; 
+        margin-top: 130px;
+    }
+
+    .about-p p{
+
+        width: 160px;
+        font-size: 10px;
+        margin-top: 30px;
+        position: absolute;
+        margin-left: 150px;
+        
+    }
+    .about-con h1{
+
+        text-align: center;
+       
+        font-size: 20px;
+        margin-top: 10px;
+        
+        
+    }
+    .infermation{
+        margin: 1rem 0 1rem;
+       margin-top: 320px;
+       color: white;
+       display: inline-flex;
+       
+       
+      }
+      .infermation .info-box{
+  
+    
+        align-items: center;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        
+      }
+      .infermation .info-box span{
+      
+        font-weight:500;
+        font-size: 9px;
+        
+      
+      }
+      /* skill */
+      #skills{
+        
+        height: 800px;
+    
+    }
+    .skill-con{
+
+        width: 300px;
+        height: 700px;
+        
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 50px;
+   
+    } 
+    .skill-con h1{
+
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    
+    /* Grid starts here */
+    .grid-container{
+    
+    
+    
+        width: 300px;
+        height: 600px;
+        
+        position: absolute;
+        margin-left: 5px;
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: auto auto  ;
+        column-gap: 0px;
+        
+    
+        
+    }
+    .grid-container .item{
+
+        width: 80px;
+        height: 80px;
+        margin-left: 30px;
+        
+    }
+    .item p{
+        margin-top: 25px;
+        margin-left: 15px;
+        
+    }
+    #contact{       
+        height: 200px;
+    }
+    
+    .con-head {
+       
+        margin-top: 50px; 
+        font-size: 15px;  
+    }
+    .icons-div{
+
+        margin: 15px  ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons-div .icons{
+        
+        margin: 10px 5px; 
+    }
+    .icons-div .icons i{
+        font-size: 40px;
+    }
+
+    #foo{
+
+        font-size: 9px;
+        padding-left: 0px;
+        
+    }
+    
+
+
+
+}
+
+
+   
